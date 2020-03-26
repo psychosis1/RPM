@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/image">
+        <file alias="logo2">Final-Logo.png</file>
+        <file alias="logo">w513h5131371296185messages.png</file>
+    </qresource>
+    <qresource prefix="/db">
+        <file alias="last">last10Messages.db</file>
+    </qresource>
+</RCC>
