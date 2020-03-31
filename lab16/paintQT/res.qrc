@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/cursor">
+        <file>brush.png</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>rainbow.png</file>
+    </qresource>
+</RCC>
