@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/add">
+        <file>column.png</file>
+        <file>row.png</file>
+        <file>tab.png</file>
+    </qresource>
+    <qresource prefix="/save">
+        <file>Save as.png</file>
+        <file>Save.png</file>
+    </qresource>
+    <qresource prefix="/main">
+        <file>excel.png</file>
+        <file>question.png</file>
+    </qresource>
+    <qresource prefix="/remove">
+        <file>deleteColumn.png</file>
+        <file>deleteRow.png</file>
+        <file>deleteTab.png</file>
+    </qresource>
+</RCC>

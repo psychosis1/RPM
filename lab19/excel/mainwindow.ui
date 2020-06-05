@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>651</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="3">
+     <widget class="QToolButton" name="row">
+      <property name="minimumSize">
+       <size>
+        <width>51</width>
+        <height>41</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Добавить строку&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="whatsThis">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Добавить строку&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QToolButton" name="deleteRow">
+      <property name="minimumSize">
+       <size>
+        <width>51</width>
+        <height>41</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Удалить строку&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="9">
+     <widget class="QToolButton" name="saveAs">
+      <property name="minimumSize">
+       <size>
+        <width>51</width>
+        <height>41</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Сохранить как файл&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="whatsThis">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="7">
+     <widget class="QToolButton" name="deleteColumn">
+      <property name="minimumSize">
+       <size>
+        <width>51</width>
+        <height>41</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Удалить столбец&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="8">
+     <widget class="QToolButton" name="save">
+      <property name="minimumSize">
+       <size>
+        <width>51</width>
+        <height>41</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Сохранить файл&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QToolButton" name="newTab">
+      <property name="minimumSize">
+       <size>
+        <width>51</width>
+        <height>41</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Добавить лист&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QToolButton" name="deleteTab">
+      <property name="minimumSize">
+       <size>
+        <width>51</width>
+        <height>41</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Удалить лист&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="10">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>782</width>
+        <height>498</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="6">
+     <widget class="QToolButton" name="column">
+      <property name="minimumSize">
+       <size>
+        <width>51</width>
+        <height>41</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Добавить столбец&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="whatsThis">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Добавить столбец&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="9">
+     <widget class="QToolButton" name="question">
+      <property name="minimumSize">
+       <size>
+        <width>51</width>
+        <height>41</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Полезная информация&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
